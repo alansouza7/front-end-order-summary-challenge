@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.picture svg.img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    /* position: relative; */
+    /* bottom: 47px; */
+    margin-bottom: 15px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; 
+    background-color: hsl(225, 100%, 94%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+.container {
+    width: 450px;
+    height: 550px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.info {
+    text-align: center;
+    font-size: 14px;
+    margin: 0 40px 15px 40px;
+    padding: 5px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plano{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0;
+    background-color:  hsl(225, 100%, 98%);
+    min-width: 370px;
+    border-radius: 10px;
+}
+
+.plano-info{
+    display: flex;
+    align-items: center;
+}
+
+.info-price {
+    padding: 15px;
+}
+
+.plano h3,
+.plano p,
+.plano a{
+    font-size: 15px;
+}
+
+.payment p{
+    text-align: center;
+    padding: 10px;
+}
+
+.payment{
+    padding: 20px;
+}
+
+.payment .box{
+    background-color:  hsl(245, 75%, 52%);
+    min-width: 370px;
+    border-radius: 10px;
+    justify-content: center;
+    height: 40px;
+    align-items: center;
+    display: flex;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.payment p{
+    font-size: 14px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+
+
